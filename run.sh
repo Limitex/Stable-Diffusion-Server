@@ -1,2 +1,6 @@
 #!/bin/bash
-python -m uvicorn --host localhost --port=8000 --workers 1 main:app
+
+export HOST="127.0.0.1"
+export PORT=8000
+
+python main.py
